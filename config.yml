@@ -3,7 +3,7 @@ tagline: A brand new course on Learning Lab
 description: Starting with TypeScript
 template:
   repo: starting-with-typescript-template
-  name: starting-with-typescript
+  name: starting-with-typescript-exercise
 before:
   - type: createIssue
     title: Welcome to the show!
@@ -57,3 +57,11 @@ steps:
       - type: createIssue
         title: Enjoy Transpiling and Playing Around
         body: generate-js-file-by-transpiling.md
+  - title: Grab Yourself a Cup of Coffee and Enjoy Life
+    description: Learn how to enjoy life
+    event: issues.closed
+    link: "{{ repoUrl }}"
+    actions:
+      - type: createIssue
+        title: Enjoy Your Coffee
+        body: coffee-time.md

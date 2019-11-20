@@ -1,6 +1,8 @@
 # Install NodeJS
 
-You can download and install Git from this link: https://nodejs.org/en/. 
+First of all: **Congratulations** for reaching this point. Keep the vibes and get ready for the next step.  
+
+You can download and install Git from this link: https://nodejs.org/. 
 
 This will automatically also install the Node Package Manager (NPM). 
 

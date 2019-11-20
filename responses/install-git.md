@@ -1,5 +1,7 @@
 # Install Git
 
+First of all: **Congratulations** for reaching this point. Keep the vibes and get ready for the next step.  
+
 You can download and install Git from this link: https://git-scm.com/downloads
 
 After the installation check whether the installation was successful. You can do this by checking the git version by entering ```git --version``` in a terminal / console / git bash
