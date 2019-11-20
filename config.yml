@@ -6,12 +6,14 @@ template:
   name: starting-with-typescript
 before:
   - type: createIssue
-    title: Welcome!
+    title: Welcome to the show!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
+  - title: Install Git
+    description: Learn how to install git
+    event: issues.closed
+    link: "{{ repoUrl }}"
     actions:
-      - type: closeIssue
+      - type: createIssue
+        title: Enjoy installing git
+        body: install-git.md
