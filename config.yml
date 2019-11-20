@@ -17,3 +17,11 @@ steps:
       - type: createIssue
         title: Enjoy installing git
         body: install-git.md
+  - title: Install NodeJS
+    description: Learn how to install NodeJS
+    event: issues.closed
+    link: "{{ repoUrl }}"
+    actions:
+      - type: createIssue
+        title: Enjoy installing NodeJS
+        body: install-nodejs.md
