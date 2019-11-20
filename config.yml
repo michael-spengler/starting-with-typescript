@@ -25,3 +25,19 @@ steps:
       - type: createIssue
         title: Enjoy installing NodeJS
         body: install-nodejs.md
+  - title: Install VS Code Insiders
+    description: Learn how to install VS Code Insiders
+    event: issues.closed
+    link: "{{ repoUrl }}"
+    actions:
+      - type: createIssue
+        title: Enjoy installing VS Code Insiders
+        body: install-nodejs.md
+  - title: Install TypeScript
+    description: Learn how to install TypeScript
+    event: issues.closed
+    link: "{{ repoUrl }}"
+    actions:
+      - type: createIssue
+        title: Enjoy installing TypeScript
+        body: install-typescript.md
