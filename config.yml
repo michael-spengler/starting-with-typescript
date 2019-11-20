@@ -10,12 +10,12 @@ before:
     body: new-issue.md
 steps:
   - title: Install Git
-    description: Learn how to install git
+    description: Learn how to install Git
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
       - type: createIssue
-        title: Enjoy installing git
+        title: Enjoy installing Git
         body: install-git.md
   - title: Install NodeJS
     description: Learn how to install NodeJS
@@ -41,3 +41,11 @@ steps:
       - type: createIssue
         title: Enjoy installing TypeScript
         body: install-typescript.md
+  - title: Clone the Current Repository to your Local Machine
+    description: Learn how to clone a repository
+    event: issues.closed
+    link: "{{ repoUrl }}"
+    actions:
+      - type: createIssue
+        title: Enjoy cloning the repository to your local machine
+        body: clone-repository.md
