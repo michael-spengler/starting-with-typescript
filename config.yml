@@ -16,8 +16,6 @@ steps:
     actions:
       - type: createFile
         filename: my-html-file.html
-        data:
-          foo: bar
         message: creating my-html-file.html
     actions:
       - type: createIssue
