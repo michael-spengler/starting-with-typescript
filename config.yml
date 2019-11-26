@@ -12,7 +12,7 @@ steps:
   - title: Install Git
     description: Learn how to install Git
     event: issues.closed
-    link: "{{ repoUrl }}"
+    link: '{{ repoUrl }}'
     actions:
       - type: createIssue
         title: Enjoy installing Git
@@ -20,7 +20,7 @@ steps:
   - title: Install NodeJS
     description: Learn how to install NodeJS
     event: issues.closed
-    link: "{{ repoUrl }}"
+    link: '{{ repoUrl }}'
     actions:
       - type: createIssue
         title: Enjoy installing NodeJS
@@ -28,7 +28,7 @@ steps:
   - title: Install VS Code Insiders
     description: Learn how to install VS Code Insiders
     event: issues.closed
-    link: "{{ repoUrl }}"
+    link: '{{ repoUrl }}'
     actions:
       - type: createIssue
         title: Enjoy installing VS Code Insiders
@@ -36,7 +36,7 @@ steps:
   - title: Install TypeScript
     description: Learn how to install TypeScript
     event: issues.closed
-    link: "{{ repoUrl }}"
+    link: '{{ repoUrl }}'
     actions:
       - type: createIssue
         title: Enjoy installing TypeScript
@@ -44,7 +44,7 @@ steps:
   - title: Take a Rest and help others
     description: Learn how to take a rest and help others
     event: issues.closed
-    link: "{{ repoUrl }}"
+    link: '{{ repoUrl }}'
     actions:
       - type: createIssue
         title: Enjoy taking a rest
@@ -52,7 +52,20 @@ steps:
   - title: Generate JS File by Transpiling TS File Content to JavaScript content
     description: Learn how to transpile to javascript and play around
     event: issues.closed
-    link: "{{ repoUrl }}"
+    link: '{{ repoUrl }}'
+    actions:
+      - type: createIssue
+        title: Enjoy taking a rest
+        body: take-a-rest-and-support-others.md
+      - type: createFile
+        filename: greeter.ts
+        message: creating greeter.ts
+        data:
+          foo
+  - title: Generate JS File by Transpiling TS File Content to JavaScript content
+    description: Learn how to transpile to javascript and play around
+    event: issues.closed
+    link: '{{ repoUrl }}'
     actions:
       - type: createIssue
         title: Enjoy Transpiling and Playing Around
@@ -60,7 +73,7 @@ steps:
   - title: Grab Yourself a Cup of Coffee and Enjoy Life
     description: Learn how to enjoy life
     event: issues.closed
-    link: "{{ repoUrl }}"
+    link: '{{ repoUrl }}'
     actions:
       - type: createIssue
         title: Enjoy Your Coffee
