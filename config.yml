@@ -54,6 +54,11 @@ steps:
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
+      - type: createFile
+        filename: greeter.ts
+        data:
+          foo: bar
+    actions:
       - type: createIssue
         title: Enjoy Transpiling and Playing Around
         body: generate-js-file-by-transpiling.md
