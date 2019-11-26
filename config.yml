@@ -49,14 +49,6 @@ steps:
       - type: createIssue
         title: Enjoy taking a rest
         body: take-a-rest-and-support-others.md
-  - title: Clone the Current Repository to your Local Machine
-    description: Learn how to clone a repository
-    event: issues.closed
-    link: "{{ repoUrl }}"
-    actions:
-      - type: createIssue
-        title: Enjoy cloning the repository to your local machine
-        body: clone-repository
   - title: Generate JS File by Transpiling TS File Content to JavaScript content
     description: Learn how to transpile to javascript and play around
     event: issues.closed
