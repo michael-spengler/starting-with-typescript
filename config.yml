@@ -32,7 +32,7 @@ steps:
     actions:
       - type: createIssue
         title: Enjoy installing VS Code Insiders
-        body: install-nodejs.md
+        body: install-vs-code-insiders.md
   - title: Install TypeScript
     description: Learn how to install TypeScript
     event: issues.closed
@@ -48,7 +48,9 @@ steps:
     actions:
       - type: createIssue
         title: Enjoy cloning the repository to your local machine
-        body: clone-repository.md
+        body: clone-repository
+        
+        
   - title: Generate JS File by Transpiling TS File Content to JavaScript content
     description: Learn how to transpile to javascript and play around
     event: issues.closed
