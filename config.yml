@@ -14,12 +14,12 @@ steps:
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
-      - type: createFile
-        filename: my-html-file.html
-        message: creating my-html-file.html
       - type: createIssue
         title: Enjoy Playing with HTML
         body: play-with-html.md
+      - type: createFile
+        filename: my-html-file.html
+        message: creating my-html-file.html
   - title: Install Git
     description: Learn how to install Git
     event: issues.closed
