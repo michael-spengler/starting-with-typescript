@@ -4,4 +4,4 @@ First of all: **Congratulations** for reaching this point. Keep the vibes and ge
 
 You can download and install VS Code Insiders from this link: https://code.visualstudio.com/insiders/. 
 
-If you got stuck in this step please reach out to a friend or to the author of this course.
+If you got stuck in this step please reach out to a friend who uses the same operating system as you or to the author of this course.

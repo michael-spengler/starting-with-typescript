@@ -8,4 +8,4 @@ After the installation check whether the installation was successful. You can do
 
 If your terminal / console / git bash responds with a reasonable version number you succeeded in this step. Feel free to close this issue in this case.
 
-If you got stuck in this step please reach out to a friend or to the author of this course.
+If you got stuck in this step please reach out to a friend who uses the same operating system as you or to the author of this course.
