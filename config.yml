@@ -60,8 +60,6 @@ steps:
       - type: createFile
         filename: greeter.ts
         message: creating greeter.ts
-        data:
-          foo
   - title: Generate JS File by Transpiling TS File Content to JavaScript content
     description: Learn how to transpile to javascript and play around
     event: issues.closed
