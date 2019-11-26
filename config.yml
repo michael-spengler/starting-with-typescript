@@ -5,16 +5,22 @@ template:
   repo: starting-with-typescript-template
   name: starting-with-typescript-exercise
 before:
-  - type: createFile
-    filename: my-html-file.html
-    message: creating html file
-    new_name: my-html-file.html
+  - type: createIssue
+    title: Welcome to the show!
+    body: new-issue.md
+  - type: createIssue
+    title: Welcome to the show 2!
+    body: new-issue.md
 steps:
   - title: Play around with the generated html file
     description: Learn how to edit an html file
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
+      - type: createFile
+        filename: my-html-file.html
+        message: creating html file
+        new_name: my-html-file.html
       - type: createIssue
         title: relax
         body: coffee-time.md
@@ -23,6 +29,12 @@ steps:
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
+      - type: createFile
+        filename: my-html-file.html
+        message: creating html file
+        new_name: my-html-file.html
+        data:
+          foo: bar
       - type: createIssue
         title: Enjoy installing Git
         body: install-git.md
