@@ -17,7 +17,6 @@ steps:
       - type: createFile
         filename: my-html-file.html
         message: creating my-html-file.html
-    actions:
       - type: createIssue
         title: Enjoy Playing around with the html file
         body: play-with-html.md
