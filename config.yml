@@ -9,6 +9,20 @@ before:
     title: Welcome to the show!
     body: new-issue.md
 steps:
+  - title: Play around with the generated html file
+    description: Learn how to edit an html file
+    event: issues.closed
+    link: "{{ repoUrl }}"
+    actions:
+      - type: createFile
+        filename: my-html-file.html
+        data:
+          foo: bar
+        message: creating my-html-file.html
+    actions:
+      - type: createIssue
+        title: Enjoy Playing around with the html file
+        body: play-with-html.md
   - title: Install Git
     description: Learn how to install Git
     event: issues.closed
@@ -55,7 +69,7 @@ steps:
     link: "{{ repoUrl }}"
     actions:
       - type: createIssue
-        title: Enjoy taking a rest
+        title: Enjoy transpiling to javascript and playing around
         body: generate-js-file-by-transpiling.md
       - type: createFile
         filename: greeter.ts
