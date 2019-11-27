@@ -57,30 +57,35 @@ steps:
       - type: createIssue
         title: Enjoy Cloning
         body: git-clone-the-repository.md
-  - title: Create a JavaScript file with a function named doIt() which alerts hello world
-    description: Learn how to create a JavaScript file containing a function and calling it from your html file
+  - title: Create an HTML File
+    description: Learn how to create an HTML file which uses JavaScript Functions
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
       - type: createIssue
-        title: Enjoy creating a JavaScript file
-        body: create-a-javascript-file.md
-  - title: Generate JS File by Transpiling TS File Content to JavaScript content
-    description: Learn how to transpile to javascript and play around
+        title: Enjoy HTML
+        body: create-an-html-file.md
+  - title: Create a TypeScript File with a function named doIt() which alerts hello world
+    description: Learn how to create a TypeScript 
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
       - type: createIssue
-        title: Enjoy transpiling to javascript and playing around
-        body: generate-js-file-by-transpiling.md
-      - type: createFile
-        filename: greeter.ts
-        message: creating greeter.ts
-  - title: Grab Yourself a Cup of Coffee and Enjoy Life
-    description: Learn how to enjoy life
+        title: Enjoy creating a TypeScript file
+        body: create-a-typescript-file.md
+  - title: Transpile the TypeScript File's content to JavaScript
+    description: Learn how to transpile from TypeScript to JavaScript
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
       - type: createIssue
-        title: Enjoy Your Coffee
-        body: coffee-time.md
+        title: Enjoy transpiling
+        body: transpile.md
+  - title: Open the HTML File via a Browser
+    description: Learn to 
+    event: issues.closed
+    link: "{{ repoUrl }}"
+    actions:
+      - type: createIssue
+        title: Enjoy the Result
+        body: transpile.md
