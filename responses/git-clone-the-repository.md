@@ -1,9 +1,14 @@
 # Git Clone the Repository and Open Folder
 
-First of all: **Congratulations** for reaching this point. Keep the vibes and get ready for the next step.  
+First of all: **Congratulations** for reaching this point. Keep the vibes and get ready for the next step.
 
-Clone the current repository  
-```git clone <replace this with your current repository>``` in a terminal / console / git bash
+Clone the current repository
+
+```
+git clone <replace this with your current repository>
+```
+
+in a terminal / console / git bash
 
 Open the folder which contains this repository now in Visual Studio Code.
 

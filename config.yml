@@ -66,7 +66,7 @@ steps:
         title: Enjoy HTML
         body: create-an-html-file.md
   - title: Create a TypeScript File with a function named doIt() which alerts hello world
-    description: Learn how to create a TypeScript 
+    description: Learn how to create a TypeScript file
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
@@ -82,10 +82,10 @@ steps:
         title: Enjoy transpiling
         body: transpile.md
   - title: Open the HTML File via a Browser
-    description: Learn to 
+    description: Open the HTML file and play around with it
     event: issues.closed
     link: "{{ repoUrl }}"
     actions:
       - type: createIssue
-        title: Enjoy the Result
-        body: transpile.md
+        title: Feel free to play around to get familiar with the stuff
+        body: finish.md
