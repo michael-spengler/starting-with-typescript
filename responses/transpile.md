@@ -2,14 +2,12 @@
 
 First of all: **Congratulations** for reaching this point. Keep the vibes and get ready for the next step.  
 
-Create a TypeScript file named "hello-world.ts" with the following content
+Transpile the TypeScript file's content to JavaScript by executing
 
 ```
-function doIt(): void {
-  const theText: string = "Hello World";
-
-  alert(theText);
-}
+tsc hello-world.ts
 ```
+
+Check that this steps automatically generates the file named "hello-world.js"
 
 If you got stuck in this step please reach out to a friend who uses the same operating system as you or to the author of this course.

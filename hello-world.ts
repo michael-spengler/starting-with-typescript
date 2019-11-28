@@ -1,3 +1,5 @@
-function doIt() {
-    alert("Hello World")
+function doIt(): void {
+  const theText: string = "Hello World";
+
+  alert(theText);
 }
